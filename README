@@ -1,0 +1,15 @@
+On Acer laptops using Insyde EFI, if a HD password is set, after failing to
+enter the password a few times, a "Key" or "Code" of 8 digits is added to the
+prompt. With those 8 digits, a password to unlock the harddrive can be fairly
+trivially derived allowing someone who does not know the HD password to access
+the HD.
+
+This is a very good reason not to use the HD password mechanism as a security
+feature even if your drive supports using it as an encryption key (as the
+Samsung 840 and 840 pro supposedly do).
+
+This utility allows decoding the Key. The coding turns out to be a trivial
+mapping of digits depending on the digits possition.
+
+See selected-code-dump for the info used to construct the lookup table. The
+format of that file is "displayed code: decoded code".

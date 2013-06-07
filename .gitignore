@@ -1,0 +1,6 @@
+.TRACK-*
+*.[oda]
+.*.swp
+*~
+
+insyde-hd-decode
