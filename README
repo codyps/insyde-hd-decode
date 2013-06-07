@@ -16,4 +16,4 @@ format of that file is "displayed code: decoded code".
 
 On my Acer ao725, the Key is displayed after 3 HD password entry failures, and
 when the decoded unlock password is entered, the hd password prompt is disabled
-for future boots.
+for future boots, and all disk contents are preserved.
