@@ -13,3 +13,7 @@ mapping of digits depending on the digits possition.
 
 See selected-code-dump for the info used to construct the lookup table. The
 format of that file is "displayed code: decoded code".
+
+On my Acer ao725, the Key is displayed after 3 HD password entry failures, and
+when the decoded unlock password is entered, the hd password prompt is disabled
+for future boots.
